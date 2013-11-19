@@ -1,0 +1,71 @@
+/****************************************************************************
+ * styles.css
+ *
+ * Computer Science 50
+ * Problem Set 7
+ *
+ * Global CSS.
+ ***************************************************************************/
+
+.container
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#top
+{
+    /* center contents */
+    text-align: center;
+}
+
+#middle
+{
+    /* center contents */
+    text-align: center;
+}
+
+
+#bottom
+{
+    /* shrink bottom's font size */
+    font-size: smaller;
+
+    /* surround with whitespace */
+    margin: 20px;
+
+    /* center contents */
+    text-align: center;
+}
+
+ul.nav.nav-tabs
+{
+    /* center nav tabs */
+   width: -webkitfit-content;
+   text-align: center;
+}
+
+li 
+{
+    /*display: inline-block;*/
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.center-nav
+{
+    display: table;
+    margin: 0 auto;
+}
+
+.nav > li > a:hover 
+{
+  text-decoration: none;
+  background-color: #51A351;
+}
+
+.nav > li> a.active
+{
+    background-color: #387038;
+}
